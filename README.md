@@ -1,27 +1,21 @@
 # AdminContentManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
+Before running this app checkout and run server side for this application: https://github.com/katerinalev1992/AdminContentManager_server
 
-## Development server
+then run angular app:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+# npm i
+# npm start
 
-## Code scaffolding
+Credentials: 
+username: admin
+password: admin
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+# Implemented
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+1. Login page;
+2. Login guard;
+3. Content page;
+4. Add/Update/Remove content;
+5. Change tooltip position;
