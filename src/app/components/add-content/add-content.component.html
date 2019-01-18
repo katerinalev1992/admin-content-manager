@@ -1,0 +1,30 @@
+<h1 mat-dialog-title>Add new content</h1>
+
+<div *ngIf="loadingStateVisibility">
+  <mat-progress-bar mode="indeterminate" ></mat-progress-bar>
+</div>
+
+<mat-divider></mat-divider>
+<div mat-dialog-content>
+
+  <div>
+    <mat-form-field>
+      <textarea matInput [(ngModel)]="tooltip" placeholder="Tooltip information">
+      </textarea>
+    </mat-form-field>
+  </div>
+  <div>
+    <button mat-raised-button (click)="fileInput.click()"  style="margin-bottom: 1rem">Select file</button>
+  </div>
+
+  <input
+    style="display: none"
+    type="file" (change)="onFileChanged($event)"
+    #fileInput>
+
+  <mat-divider></mat-divider>
+
+  <button mat-button (click)="onUpload()">Upload</button>
+  <button mat-button (click)="onCloseClick()">Close</button>
+
+</div>

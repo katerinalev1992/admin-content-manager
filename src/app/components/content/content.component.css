@@ -1,0 +1,32 @@
+.topleft{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.topright{
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.bottomleft{
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.bottomright{
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+img.mat-card-image {
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
