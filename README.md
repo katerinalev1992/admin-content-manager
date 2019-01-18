@@ -7,9 +7,9 @@ then run angular app:
 # npm i
 # npm start
 
-Credentials: 
-username: admin
-password: admin
+## Credentials: 
+### username: admin
+### password: admin
 
 
 # Implemented
